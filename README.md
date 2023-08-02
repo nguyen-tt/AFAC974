@@ -1,19 +1,9 @@
-## Concept
+## AFAC974 - Project at the Wild Code School (React.js, Node.js, Express, mySQL) in collaboration with @AnneL51100, @MarineDeveza, @AnthonyLASTERNAS, @webdevbynight
 
-This repository is the third and last team project carried out during a course at [Wild Code School](https://github.com/WildCodeSchool). This team project was made by [AnthonyLASTERNAS](https://github.com/AnthonyLASTERNAS), [AnneL51100](https://github.com/AnneL51100), [MarineDeveza](https://github.com/MarineDeveza), [nguyen-tt](https://github.com/nguyen-tt) and [webdevbynight](https://github.com/webdevbynight).
+### Link : https://afac974.remote-6.wilders.dev/
 
-This project is based on React, Express and MySQL.
 
 ## Setup & Use
-
-### Windows users
-
-Be sure to run these commands in a git terminal to avoid [issues with newline formats](https://en.wikipedia.org/wiki/Newline#Issues_with_different_newline_formats):
-
-```
-git config --global core.eol lf
-git config --global core.autocrlf false
-```
 
 ### Project Initialization
 
@@ -43,12 +33,3 @@ git config --global core.autocrlf false
 - _Prettier_ : “Quality of code” tool as well, focuses on the styleguide
 - _ Airbnb Standard_ : One of the most known “standards”, even though it’s not officially linked to ES/JS
 - _Nodemon_ : Allows to restart the server everytime a .js file is udated
-
-### Deployment
-
-For deployment, you have to go to `secrets` → app `actions` on the github repo to insert via `New repository secret` :
-
-- CAPROVER_BACK_APPNAME : name app on caprover
-- CAPROVER_FRONT_APPNAME : name app on caprover
-- CAPROVER_PASSWORD : password caprover
-- CAPROVER_SERVER : link of domain
